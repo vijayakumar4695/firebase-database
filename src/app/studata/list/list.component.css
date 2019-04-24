@@ -1,0 +1,16 @@
+
+
+h2{
+    text-align:center;
+    background-color: rgb(6, 66, 66);
+    color:white;
+    border-radius: 20px;
+    border-left-width: 20px;
+  
+}
+table{
+    background-color:cyan;
+}
+thead{
+    background-color: darkorange; 
+}

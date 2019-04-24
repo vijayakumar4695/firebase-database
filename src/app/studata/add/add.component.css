@@ -1,0 +1,15 @@
+body{
+    font-family:sans-serif;
+}
+.container-fluid{
+  border:2px solid black;
+  border-radius: 10px;
+}
+h2{
+    border-top:3px #000;
+    border-bottom:3px #000; 
+    text-align:center;
+}
+lable{
+   text-decoration: uppercase;
+}

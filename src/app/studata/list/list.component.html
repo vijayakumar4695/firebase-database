@@ -1,0 +1,24 @@
+
+<h2>STUDENT DATABASE LIST</h2>
+<table class="table table-hover" border="3">
+  <thead>
+    <th> Name</th>
+    <th> Email</th>
+    <th> Registerno</th>
+    <th> Class</th>
+    <th> Dayscholer/Hosteller</th>
+    <th> Mobilenumber</th>
+    <th> Delete</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let study of list">
+    <td (click)="onEdit(study)">{{study.uname}}</td>
+    <td (click)="onEdit(study)">{{study.email}}</td>
+    <td (click)="onEdit(study)">{{study.regno}}</td>
+    <td (click)="onEdit(study)">{{study.class}}</td>
+    <td (click)="onEdit(study)">{{study.dayhostel}}</td>
+    <td (click)="onEdit(study)">{{study.contactno}}</td>
+    <td><a class="btn text-danger"(click)="onDelete(study.id)"><i class="fa fa-trash"></i></a></td>
+</tr>
+  </tbody> 
+</table>
